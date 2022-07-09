@@ -125,9 +125,6 @@ HWND WINAPI __CreateWindowExA(DWORD dwExStyle, LPCSTR lpClassName, LPCSTR lpWind
 	return hwnd;
 }
 
-
-
-
 BOOL WINAPI __SetWindowPos(HWND hWnd, HWND hWndInsertAfter, int X, int Y, int cx, int cy, UINT uFlags)
 {
 	BOOL ret;
