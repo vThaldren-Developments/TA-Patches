@@ -2,6 +2,7 @@
 
 #include <Windows.h>
 
+#pragma comment (lib, "Kernel32.lib")
 #pragma comment (lib, "User32.lib")
 
 HWND taHWND;
